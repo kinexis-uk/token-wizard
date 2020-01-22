@@ -72,7 +72,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "immutability-helper": "^2.5.0",
-    "jest": "20.0.4",
+    "jest": "23.0.0",
     "jquery": "^3.2.1",
     "jszip": "^3.1.4",
     "mobx": "^3.3.0",
@@ -109,7 +109,7 @@
     "sweetalert2": "^7.0.9",
     "url-loader": "0.5.9",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "2.5.0",
+    "webpack-dev-server": "2.11.4",
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.3"
   },
