@@ -73,7 +73,7 @@
     "html-webpack-plugin": "2.29.0",
     "immutability-helper": "^2.5.0",
     "jest": "20.0.4",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jszip": "^3.1.4",
     "mobx": "^3.3.0",
     "mobx-react": "^4.3.3",
@@ -111,7 +111,8 @@
     "webpack": "^2.6.1",
     "webpack-dev-server": "2.5.0",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "installWeb3": "cd submodules/poa-web3-1.0 && npm install && cd ../../ && npm install --no-save submodules/poa-web3-1.0/packages/web3",
@@ -130,7 +131,9 @@
     "generateContracts": "nps contracts.generate",
     "compileContracts": "nps contracts.compile",
     "lint": "eslint src",
-    "ganache": "ganache-cli -d -i 12648430"
+    "ganache": "ganache-cli -d -i 12648430",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -175,5 +178,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "snyk": true
 }
