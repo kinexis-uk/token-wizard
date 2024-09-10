@@ -99,7 +99,7 @@
     "react-final-form": "^3.1.4",
     "react-final-form-arrays": "^1.0.4",
     "react-final-form-listeners": "^1.0.0",
-    "react-router-dom": "^4.1.2",
+    "react-router-dom": "^6.0.0",
     "react-tooltip": "^3.4.0",
     "solc": "^0.4.14",
     "solidity-flattener": "file:submodules/solidity-flattener",
