@@ -95,7 +95,7 @@
     "react-dev-utils": "^3.0.2",
     "react-dom": "^15.6.1",
     "react-dropzone": "^4.2.8",
-    "react-error-overlay": "^1.0.9",
+    "react-error-overlay": "^2.0.0",
     "react-final-form": "^3.1.4",
     "react-final-form-arrays": "^1.0.4",
     "react-final-form-listeners": "^1.0.0",
