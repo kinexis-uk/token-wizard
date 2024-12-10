@@ -89,7 +89,7 @@
     "qrcode.react": "^0.7.2",
     "query-string": "^5.0.1",
     "react": "^15.6.1",
-    "react-alert": "^2.4.0",
+    "react-alert": "^3.0.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-countdown-clock": "^2.0.0",
     "react-dev-utils": "^3.0.2",
